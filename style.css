@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: rgb(206, 206, 206);
+    background-image: url(images/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    background-color: rgba(230, 230, 250, 0.308);
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 0px 2px 30px grey;
+    padding: 2em;
+    border-radius: 5px;
+}
+
+
+
+main h1 {
+    font-family: 'Xanh Mono', monospace;
+    text-align: center;
+    font-size: 3em;
+    color: rgb(60, 59, 99);
+}
+
+.item_name {
+    display: flex;
+    justify-content: space-between;
+    width: 36%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(189, 189, 189) 1px 1px 1px;
+}
+.prix {
+    display: flex;
+}
+article{
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.art:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+article:last-child{
+    margin-bottom: 0px;
+}
+
+#checkout{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-items: center;
+    width: 100%;
+    justify-content: flex-end;
+    font-size: x-large;
+}
+
+#checkout button{
+    display:inline-block;
+	vertical-align:middle;
+    height: 4em;
+    width: 10em;
+    border-radius: 0.5em;
+    border: none;
+    margin-left: 3em;
+    padding:1.1666666667em 1.5em;
+	background:#3d83df;
+	font-family:Helvetica Neue,Helvetica,Arial,sans-serif;
+	line-height:1em;
+	color:#fff;
+	font-weight: 700;
+	letter-spacing:.04em;
+	font-size:.7rem;
+	text-align:center;
+	text-decoration:none!important;
+	text-transform:uppercase;
+    transition:all .4s ease 0s;
+    cursor: pointer;
+}
+#checkout button:hover {
+	color:#fff;
+    background:#1662c6;
+}
+
+
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 0.5em;
+    border: none;
+    padding: 3px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(88, 88, 88, 0.568);
+    color: black;
+    cursor: pointer;
+}
+input {
+    text-align: center;
+    height: 1.5em;
+    width: 5em;
+    border-radius: 0.5em;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.432);
+}
+.raz:hover {
+    cursor: pointer;
+    color: red;
+}
+.fa {
+cursor: pointer;
+user-select: none;
+}
+.fa:hover {
+color: red;
+}

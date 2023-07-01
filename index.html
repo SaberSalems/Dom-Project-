@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping Cart</title>
+
+    <!--bootsrap-->
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <main id="article">
+        <h1>Shopping Bag</h1>
+        <article class="art">
+            <img src="lenovo.webp" alt="fins" width="150px" height="150px">
+            <div class="item_name">
+                <p>PC LENOVO : </p>
+                <div class="prix">
+                    <p id="price1" class="PrixProduit">100</p>
+                    <p>$</p>
+                </div>
+            </div>
+
+
+            <button class="plus">+</button>
+
+            <input type="text" class="QuantiteProduit" name="quantity" required minlength="4" maxlength="8" size="10"
+                value="1">
+            <button class="moins" id='moins'>-</button>
+            <!--Heart-->
+            <i class="fa fa-heart-o" style="font-size:38px;color:red"></i>
+
+            <span class="raz">x</span>
+
+
+        </article>
+
+        <article class="art">
+            <img src="Iphone 12 pro max.jpg" alt="wetsuit" width="150px" height="150px">
+            <div class="item_name">
+                <p>IPHONE :  </p>
+                <div class="prix">
+                    <p id="price2" class="PrixProduit">100</p>
+                    <p>$</p>
+                </div>
+            </div>
+            <button class="plus">+</button>
+           
+            <input type="text" class="QuantiteProduit" name="quantity" required minlength="4" maxlength="8" size="10"
+                value="1">
+            <button class="moins" id='moins'>-</button>
+            <!--Heart-->
+            <i class="fa fa-heart-o" style="font-size:38px;color:red"></i>
+
+            <span class="raz">x</span>
+        </article>
+
+        <article class="art">
+            <img src="tablette samsung.jpg" alt="mask" width="150px" height="150px">
+            <div class="item_name">
+                <p>TABLETTE : </p>
+                <div class="prix">
+                    <p id="price3" class="PrixProduit">100</p>
+                    <p>$</p>
+                </div>
+            </div>
+
+
+            <button class="plus">+</button>
+            
+            <input type="text" class="QuantiteProduit" name="quantity" required minlength="4" maxlength="8" size="10"
+                value="1">
+            <button class="moins" id='moins'>-</button>
+            <!--Heart-->
+
+            <i class="fa fa-heart-o" style="font-size:38px;color:red"></i>
+
+      
+            <span class="raz">x</span>
+        </article>
+
+        <article id="checkout">
+            <p>Total price: $<span class="PrixTotal">300</span></p>
+            <button>Buy now!</button>
+        </article>
+    </main>
+
+
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>
